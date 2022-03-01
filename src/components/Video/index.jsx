@@ -1,8 +1,11 @@
+
 import { Container, ButtonArea, Button } from "./style";
 import { IoTrashBin, IoThumbsUp, IoPencil} from 'react-icons/io5'
 
 
+
 export function Video({id, title, link, liked }){
+
     return(
         <li>
             <Container>
